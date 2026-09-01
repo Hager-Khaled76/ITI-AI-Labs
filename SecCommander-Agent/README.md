@@ -16,7 +16,7 @@ In modern Cybersecurity Operations Centers (SOC), security analysts face extreme
 
 ---
 
-## 🏗️ System Architecture
+##    System Architecture
 
 ```mermaid
 graph TD
