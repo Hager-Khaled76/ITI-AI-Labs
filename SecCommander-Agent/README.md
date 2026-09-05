@@ -36,18 +36,6 @@ graph TD
     I --> J[Executive Security Incident Report]
 
 
-
----
-
-## Core Components
-- **Input Guardrails:** Intercepts and blocks malicious payloads (SQLi, Prompt Injections) upfront before reaching backend components.
-- **Triage Router (LangGraph):** Dynamically orchestrates tasks between retrieval and execution paths.
-- **LlamaIndex RAG:** Fetches security frameworks and threat intelligence context (OWASP / MITRE ATT&CK).
-- **Tools Executor:** Runs automated log parsing and computes CVSS scores.
-- **Reflection Node:** Performs an internal audit loop to verify and refine final security incident reports.
-
----
-
 ## Tech Stack
 - **Orchestration:** LangGraph
 - **Retrieval:** LlamaIndex
