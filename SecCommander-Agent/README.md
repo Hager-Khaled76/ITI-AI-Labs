@@ -34,9 +34,3 @@ graph TD
     G --> H[Multi-Agent Reflection & Audit Node]
     H --> I[Output Safety Verification]
     I --> J[Executive Security Incident Report]
-
-
-## Tech Stack
-- **Orchestration:** LangGraph
-- **Retrieval:** LlamaIndex
-- **Language:** Python 3.10+
